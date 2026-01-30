@@ -1,0 +1,14 @@
+{
+    "name": "Bear Mountain",
+    "url": {
+        "host": "https://www.bigbearmountainresort.com",
+        "pathname": "/mountain-information"
+    },
+    "tags": [
+        "California"
+    ],
+    "ll": [
+        -116.8894,
+        34.2364
+    ]
+}
