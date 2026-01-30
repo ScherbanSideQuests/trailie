@@ -1,4 +1,19 @@
 
+4.2.2 / 2026-01-24
+==================
+
+ * fix environment vars initialization
+ * enable `biome` project domain rules
+ * use `import.meta.dirname` consistently
+ * fix `Permissions-Policy` header
+
+4.2.1 / 2026-01-21
+==================
+
+ * upgrade `biomes` to 2.3.11
+ * soft dependency update
+ * use `node:querystring` instead of `qs` module
+
 4.2.0 / 2025-12-31
 ==================
 
