@@ -1,0 +1,24 @@
+{
+  "name": "Boyne Mountain",
+  "url": {
+    "host": "https://www.boynemountain.com",
+    "pathname": "/mountain-report"
+  },
+  "api": {
+    "host": "https://apim-marketing-001.azure-api.net",
+    "pathname": "/FeedService/v1/Feed/Facilities/Areas/Lifts/All?resortName=bm"
+  },
+  "statsUrl": {
+    "host": "https://globalconditionsfeed.azurewebsites.net",
+    "pathname": "/bm/printablereports"
+  },
+  "tags": [
+    "Michigan"
+  ],
+  "ll": [
+    -84.9317,
+    45.1633
+  ],
+  "twitter": "BoyneMountain",
+  "noaa": "APX/36,112"
+}

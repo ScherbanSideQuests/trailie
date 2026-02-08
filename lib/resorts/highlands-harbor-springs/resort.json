@@ -1,0 +1,24 @@
+{
+  "name": "The Highlands",
+  "url": {
+    "host": "https://www.highlandsharborsprings.com",
+    "pathname": "/mountain-report"
+  },
+  "api": {
+    "host": "https://apim-marketing-001.azure-api.net",
+    "pathname": "/FeedService/v1/Feed/Facilities/Areas/Lifts/All?resortName=th"
+  },
+  "statsUrl": {
+    "host": "https://globalconditionsfeed.azurewebsites.net",
+    "pathname": "/th/printablereports"
+  },
+  "tags": [
+    "Michigan"
+  ],
+  "ll": [
+    -84.9453,
+    45.485
+  ],
+  "twitter": "HighlandsHS",
+  "noaa": "APX/37,114"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "The Summit at Snoqualmie",
+  "url": {
+    "host": "https://www.summitatsnoqualmie.com",
+    "pathname": "/mountain-report"
+  },
+  "api": {
+    "host": "https://apim-marketing-001.azure-api.net",
+    "pathname": "/FeedService/v1/Feed/Facilities/Areas/Lifts/All?resortName=ss"
+  },
+  "statsUrl": {
+    "host": "https://globalconditionsfeed.azurewebsites.net",
+    "pathname": "/ss/printablereports"
+  },
+  "tags": [
+    "Washington"
+  ],
+  "ll": [
+    -121.4116,
+    47.4192
+  ],
+  "twitter": "summitatsnoqualmie",
+  "noaa": "SEW/79,50"
+}
