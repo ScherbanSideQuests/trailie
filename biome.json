@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 	"root": false,
 	"$schema": "node_modules/@biomejs/biome/configuration_schema.json",
 	"assist": {
@@ -94,4 +95,111 @@
 			}
 		}
 	]
+=======
+  "$schema": "node_modules/@biomejs/biome/configuration_schema.json",
+  "assist": {
+    "actions": {
+      "source": {
+        "organizeImports": "on"
+      }
+    }
+  },
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git",
+    "useIgnoreFile": true
+  },
+  "formatter": {
+    "enabled": true
+  },
+  "files": {
+    "includes": [
+      "**",
+      "!**/pnpm-lock.yaml",
+      "!**/bin/generate",
+      "!**/test/resorts/example",
+      "!**/test/replay"
+    ]
+  },
+  "javascript": {
+    "formatter": {
+      "arrowParentheses": "asNeeded",
+      "indentStyle": "space",
+      "quoteStyle": "single",
+      "trailingCommas": "none",
+      "lineWidth": 120
+    }
+  },
+  "json": {
+    "formatter": {
+      "enabled": true,
+      "expand": "always",
+      "indentStyle": "space"
+    }
+  },
+  "linter": {
+    "enabled": true,
+    "domains": {
+      "project": "recommended"
+    },
+    "rules": {
+      "recommended": true,
+      "correctness": {
+        "noUnusedVariables": "error",
+        "noUndeclaredDependencies": "error",
+        "noUndeclaredVariables": "error",
+        "noUnusedFunctionParameters": "error",
+        "useImportExtensions": "error"
+      },
+      "complexity": {
+        "noForEach": "off",
+        "useLiteralKeys": "off"
+      },
+      "style": {
+        "noParameterAssign": "off",
+        "useDefaultParameterLast": "error",
+        "useSingleVarDeclarator": "error",
+        "noUnusedTemplateLiteral": "error",
+        "useNumberNamespace": "error",
+        "noUselessElse": "error"
+      },
+      "performance": {
+        "noDelete": "off"
+      },
+      "suspicious": {
+        "noAssignInExpressions": "off",
+        "useIterableCallbackReturn": "off"
+      }
+    }
+  },
+  "overrides": [
+    {
+      "includes": [
+        "**/sw.template.js"
+      ],
+      "linter": {
+        "rules": {
+          "correctness": {
+            "noUndeclaredVariables": "off"
+          }
+        }
+      },
+      "javascript": {
+        "globals": [
+          "options"
+        ]
+      }
+    },
+    {
+      "includes": [
+        "**/test/resorts/**/*.js"
+      ],
+      "javascript": {
+        "formatter": {
+          "quoteProperties": "preserve"
+        }
+      }
+    }
+  ]
+>>>>>>> c1edc4af67159d170dabe3eaa0f5442d43c616b6
 }
