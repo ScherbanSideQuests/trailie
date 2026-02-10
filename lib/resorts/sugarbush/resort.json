@@ -8,6 +8,7 @@
     "host": "https://mtnpowder.com",
     "pathname": "/feed/70/lifts"
   },
+  "statsUrl": "https://mtnpowder.com/feed/v3.json?bearer_token=NcCvnKYGAOLTfkvAuQm6Z03zvHUSo64ctInVBbhUcr4&resortId[]=70",
   "tags": [
     "New England",
     "Vermont"

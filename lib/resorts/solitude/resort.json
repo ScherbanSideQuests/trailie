@@ -8,6 +8,7 @@
     "host": "https://mtnpowder.com",
     "pathname": "/feed/65/lifts"
   },
+  "statsUrl": "https://mtnpowder.com/feed/v3.json?bearer_token=qB3HEbzNEay264HJWk_6_CrPaYxt58SSc-Y_qENpRmo&resortId[]=65",
   "tags": [
     "Utah"
   ],
