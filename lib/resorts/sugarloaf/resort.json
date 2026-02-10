@@ -8,6 +8,7 @@
     "host": "https://apim-marketing-001.azure-api.net",
     "pathname": "/FeedService/v1/Feed/Facilities/Areas/Lifts/All?resortName=sl"
   },
+  "statsUrl": "https://www.sugarloaf.com/api/reportpal?resortName=sugarloaf&useReportPal=true",
   "tags": [
     "New England",
     "Maine"
