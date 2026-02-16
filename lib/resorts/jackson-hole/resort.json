@@ -5,7 +5,7 @@
     "pathname": "/maps/mountain-winter"
   },
   "api": {
-    "host": "https://www.jacksonhole.com",
+    "host": "https://jacksonhole-prod.zaneray.com",
     "pathname": "/api/all.json"
   },
   "tags": [

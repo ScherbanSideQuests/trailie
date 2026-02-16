@@ -8,10 +8,7 @@
     "host": "https://apim-marketing-001.azure-api.net",
     "pathname": "/FeedService/v1/Feed/Facilities/Areas/Lifts/All?resortName=ss"
   },
-  "statsUrl": {
-    "host": "https://globalconditionsfeed.azurewebsites.net",
-    "pathname": "/ss/printablereports"
-  },
+  "statsUrl": "https://www.summitatsnoqualmie.com/api/reportpal?resortName=ss&useReportPal=true",
   "tags": [
     "Washington"
   ],
